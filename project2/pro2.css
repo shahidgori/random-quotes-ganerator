@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: darkcyan;
+}
+
+.container{
+    display: flex;
+    width: 95%;
+    height: 95vh;
+    background-color:darkcyan;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.quotes{
+    display: flex;
+    flex-direction: column;
+    border: 10px solid rgb(252, 202, 41);
+    width: 900px;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    background: cornsilk;
+    border-radius: 30px;
+}
+
+.quotes p{
+    font-size: 20px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn{
+    padding: 10px;
+    width: 200px;
+    border-radius: 20px;
+    border: none;
+    color: darkgray;
+    background-color: darkgoldenrod;
+    font-weight: bold;
+    cursor: pointer;
+}
+
